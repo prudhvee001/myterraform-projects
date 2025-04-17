@@ -1,4 +1,4 @@
-module "ec2-instance" {
+module "ec2-instance"  {
   source = "./terraform_modules/ec2-instance"
 
   ami           = "ami-0c55b159cbfafe1f0"
